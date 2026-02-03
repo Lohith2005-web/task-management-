@@ -5,8 +5,11 @@ A simple task manager application with a Django frontend and a Node.js backend.
 
 ## Structure
 
-- **Backend**: Node.js (`server.js`) - A simple REST API handling tasks in-memory.
-- **Frontend**: Django - Handles user interface and communicates with the backend.
+Backend (API):
+Node.js (server.js) — A simple REST API that manages tasks using in-memory storage.
+
+Backend (Server-side UI):
+Django — Renders HTML pages and communicates with the Node.js API.
 
 ## Prerequisites
 
